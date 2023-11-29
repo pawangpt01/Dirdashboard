@@ -1,0 +1,146 @@
+.headingLine {
+  font-size: 32px;
+  font-family: "Roboto Condensed";
+  margin-left: 15px;
+  position: relative;
+  top: 80px;
+  z-index: 9999;
+}
+.filterButton {
+  position: relative;
+  top: 80px;
+  z-index: 9999;
+  float: right;
+  width: 512px;
+}
+.myContainer {
+  display: flex;
+  padding: 5px;
+}
+
+.select-box {
+  flex: 1; /* Distribute equal width to both select boxes */
+  margin-right: 10px; /* Optional spacing between select boxes */
+}
+
+.fa-bar-chart {
+  font-size: xx-large;
+  /* background-color: brown; */
+  color: #007BFF;
+  /* width: 250px; */
+  padding: 10px;
+  border-radius:0cap;
+}
+
+
+.header-container {
+  text-align: left; /* Or 'center' if you want to center-align */
+}
+
+.icon {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 20px; /* Add space between icon and header */
+}
+
+.header {
+  display: inline-block;
+  vertical-align: middle;
+  /* Set your header's styles */
+}
+
+.container-fluid,.card {
+  position: relative;
+    display: -ms-flexbox;
+    display: flow;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0 solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+}
+
+.p1 {
+  font-size: 16px !important;
+  color: #585858 !important;
+}
+.p2 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #000;
+}
+
+.icon i {
+  color: #0088E8;
+}
+.setGraph {
+  margin-left: -58px;
+}
+
+.sum{
+  border-radius: 20px;
+  width:150px;
+  background-color: #d3d3d3;
+ 
+}
+.sum1{
+  border-radius: 20px;
+  width:150px;
+ 
+  
+}
+.scroll{
+  height:310px;
+  overflow:auto;
+  
+}
+.overscroll-behavior{
+  overscroll-behavior:contain;
+  
+
+}
+
+
+
+
+
+/*****media-quert*********/
+@media (min-width: 2560px) and (max-width: 4000px) {
+  #act {margin: 0px 0 0px 0;}
+}
+@media (min-width: 1920px) and (max-width: 2560px) {
+  #act {margin: 0px 0 0px 0;}
+}
+
+@media (min-width: 1621px) and (max-width: 1920px) {
+  #act {margin: 0px 0 0px 0}
+}
+@media (min-width: 1441px) and (max-width: 1620px){
+  #act {margin: 25px 0 25px 0;}  
+}
+
+
+@media (min-width: 1366px) and (max-width: 1440px) {
+  #act {margin: 25px 0 25px 0;}
+  
+} 
+
+@media (min-width: 999px) and (max-width: 1365px) {
+  #act {margin: 25px 0 25px 0;}
+} 
+@media only screen and (min-width: 768px) and (max-width: 998px) {
+  #act {margin: 25px 0 25px 0;} 
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  #act {margin: 25px 0 25px 0;}
+  
+}
+@media only screen and (max-width: 479px) {
+  
+}
+@media only screen and (max-width: 320px) {
+   
+}

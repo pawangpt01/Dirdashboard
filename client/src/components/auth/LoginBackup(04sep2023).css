@@ -1,0 +1,43 @@
+.banner{
+  width:100%;
+  height:auto;
+}
+.banner img{
+  width:100%;
+  /* opacity:10%; */
+  position: relative;
+  height:100vh;
+  
+}
+.butt{
+  margin-top: 50px;
+  width:100px;
+  margin-left:30px;
+  
+}
+.rem{
+  float:left;
+}
+.forgot{
+  float: right;
+}
+.for{
+  width:400px;
+  margin: 0 auto;
+ 
+}
+.back{
+  background-color: black;
+  color:white;
+  opacity:60%;
+ height:380px;
+ width: 450px !important;
+ position: absolute;
+ left:0;
+    right: 0;
+    top: 100px;
+
+}
+.log{
+  padding: 20px;
+}

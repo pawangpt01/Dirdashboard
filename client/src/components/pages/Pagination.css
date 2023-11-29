@@ -1,0 +1,21 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination a {
+  color: #007bff;
+  margin: 0 5px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.pagination .active a {
+  font-weight: bold;
+}
+
+.pagination .prev,
+.pagination .next {
+  margin: 0 10px;
+}
